@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Exo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&family=Exo+2:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box; /* para os elementos filhos nao sairem*/
+    background-color: #000000;
+    color: #6d6f18;
+}
+
+.apresentacao {
+    margin: 10% 10%;
+    display: flex; /*Usar na classe em que deseja alinhar*/
+    align-items: center; /*colocar os itens no centro*/
+    justify-content: space-between; /*dar espaço entre os elementos filhos*/
+}
+
+.conteudo {
+    width: 618px; 
+    display: flex;
+    flex-direction: column; /*colocar os elementos em coluna*/
+    gap: 40px; /* recurso utilizado para dizer qual o espaçamento entre os elementos filhos*/
+
+}
+
+.titulo {
+    font-size: 34px;
+    font-family: 'Cormorant SC', serif;
+
+
+}
+
+strong {
+    color: #fbff00;
+    font-size: 40px;
+}
+
+.paragrafo {
+    font-size: 24px;
+    font-family: 'Cormorant SC', serif
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    background-color: #6d6f18;
+    border-radius: 16px; /* raio da borda do background*/
+    width: 280px;
+    text-align: center;
+    font-size: 24px;
+    padding: 21.5px 0;
+    color: #140f07;
+    font-family: 'Cormorant SC', serif;
+}
+
+.informacoes {
+    font-size: 20px;
+}
